@@ -1,6 +1,7 @@
+import Sidebar from "./Sidebar";
 
 const Layout = () => {
-  return <>hello</>;
+  return <><Sidebar /></>;
 };
 
 export default Layout;
