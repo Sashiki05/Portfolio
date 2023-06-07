@@ -1,4 +1,3 @@
-import "../App.scss";
 import { useState } from "react";
 import LogoS from "../assets/images/logo-s.png";
 import LogoSubtitle from "../assets/images/logo_sub.png";
@@ -21,7 +20,7 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img className="sub-logo" src={LogoSubtitle} alt="Sashiki" />
       </Link>
       <nav className={showNav ? "mobile-show" : ""}>
         <NavLink
