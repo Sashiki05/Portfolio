@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import {
-  
+  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
-  faNode,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
 import AnimatedLetters from "../components/AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import '../App.scss';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -33,23 +33,25 @@ const About = () => {
             />
           </h1>
           <p>
-           👋 En reconversion vers le métier de développeur web, après avoir travaillé en tant que manager dans la restauration rapide. Je souhaite transformer ma passion dans mon métier.
-
-
+            I'm a very ambitious front-end developer looking for a role in an
+            established IT company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.
           </p>
-          <p>💪 J ai appris à être travailler en equipe, gérer les priorités, résoudre des problèmes de façon efficace, ainsi qu à travailler dans un environnement dynamique et en constante évolution. J aspire à exploiter cette expérience au service de mon futur métier.
-
+          <p align="LEFT">
+            I'm quiet confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.
           </p>
           <p>
-          🔍 Actuellement en formation pour devenir développeur web Fullstack (Javascript / React / NodeJS /Express), je recherche activement une alternance en contrat de professionnalisation à partir de Septembre 2023.
-
+            If I need to define myself in one sentence that would be a family
+            person, father of a beautiful daughter, a sports fanatic,
+            photography enthusiast, and tech-obsessed!!!
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#13be3b" />
+              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
